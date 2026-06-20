@@ -1,4 +1,4 @@
-# Microsoft Entra ID Administration Lab
+# TechLab Microsoft Entra ID Administration Portfolio
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
 ![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4)
@@ -9,9 +9,20 @@
 
 This project demonstrates hands-on administration of Microsoft Entra ID (formerly Azure Active Directory) in a cloud-first Microsoft 365 environment.
 
-The lab focuses on identity and access management tasks commonly performed by IT Support Analysts, Service Desk Engineers, Junior System Administrators, and Microsoft 365 Administrators.
+The project focuses on identity and access management tasks commonly performed by IT Support Analysts, Service Desk Engineers, Junior System Administrators, and Microsoft 365 Administrators.
 
 The objective is to gain practical experience with user administration, group management, role-based access control (RBAC), authentication, auditing, and PowerShell automation while building a portfolio of real-world cloud administration skills.
+
+---
+
+## TechLab Portfolio Series
+
+This repository is part of the TechLab portfolio series, a collection of hands-on IT administration projects focused on Microsoft cloud technologies, identity management, endpoint administration, automation, networking, and IT support.
+
+### Current Projects
+
+- TechLab Microsoft 365 Portfolio
+- TechLab Microsoft Entra ID Administration Portfolio
 
 ---
 
@@ -81,9 +92,9 @@ The objective is to gain practical experience with user administration, group ma
 | 02 - User Management | ⏳ Planned |
 | 03 - Group Management | ⏳ Planned |
 | 04 - Administrative Roles | ⏳ Planned |
-| 05 - MFA | ⏳ Planned |
+| 05 - Multi-Factor Authentication (MFA) | ⏳ Planned |
 | 06 - Password Management | ⏳ Planned |
-| 07 - Sign-In Logs | ⏳ Planned |
+| 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
 | 08 - Microsoft Graph PowerShell | ⏳ Planned |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
 
@@ -92,46 +103,28 @@ The objective is to gain practical experience with user administration, group ma
 ## Repository Structure
 
 ```text
-Microsoft-Entra-ID-Administration-Lab/
+TechLab-Microsoft-Entra-ID-Administration-Portfolio/
 
 ├── README.md
 │
 ├── 01-Identity-Overview/
-│   └── Identity-Overview.md
-│
-├── 02-User-Management/
-│   └── User-Management.md
-│
-├── 03-Group-Management/
-│   └── Group-Management.md
-│
-├── 04-Administrative-Roles/
-│   └── Administrative-Roles.md
-│
-├── 05-MFA/
-│   └── MFA.md
-│
-├── 06-Password-Management/
-│   └── Password-Management.md
-│
-├── 07-Sign-In-Logs/
-│   └── Sign-In-Logs.md
-│
-├── 08-Microsoft-Graph-PowerShell/
-│   └── Microsoft-Graph-PowerShell.md
-│
-└── 09-Troubleshooting-Scenarios/
-    └── Troubleshooting-Scenarios.md
+│   ├── Identity-Overview.md
+│   └── images/
+│       ├── entra-overview.png
+│       └── users-overview.png
 ```
 
 ---
 
-## Future Improvements
+## Future Projects
 
-- Microsoft Intune Administration Lab
-- Active Directory Administration Lab
-- Service Desk Troubleshooting Lab
-- Jamf Awareness Lab
+The TechLab portfolio will continue to expand with additional projects including:
+
+- Microsoft Intune Administration
+- Active Directory Administration
+- Service Desk Troubleshooting
+- Endpoint Management
+- Jamf Awareness
 - Advanced Microsoft Graph Automation
 
 ---
