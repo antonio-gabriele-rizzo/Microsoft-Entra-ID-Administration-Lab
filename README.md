@@ -43,11 +43,11 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 - Understand Microsoft Entra ID fundamentals
 - Learn cloud identity management concepts
 - Manage users and groups
-- Explore administrative roles and RBAC
+- Explore administrative roles and delegated permissions
 - Configure and understand Multi-Factor Authentication (MFA)
 - Manage passwords and account recovery
 - Review sign-in and audit logs
-- Automate administrative tasks using Microsoft Graph PowerShell
+- Learn basic Microsoft Graph PowerShell administration
 - Build professional technical documentation using GitHub and Markdown
 - Create a reusable Microsoft Entra ID administration reference guide
 
@@ -71,11 +71,11 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [01 - Identity Overview](01-Identity-Overview/Identity-Overview.md) | ✅ Complete |
 | 02 - User Management | ⏳ Planned |
 | 03 - Group Management | ⏳ Planned |
-| 04 - Administrative Roles | ⏳ Planned |
+| 04 - Introduction to Administrative Roles | ⏳ Planned |
 | 05 - Multi-Factor Authentication (MFA) | ⏳ Planned |
 | 06 - Password Management | ⏳ Planned |
 | 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
-| 08 - Microsoft Graph PowerShell | ⏳ Planned |
+| 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
 
 ---
@@ -144,20 +144,21 @@ Skills developed:
 
 ---
 
-### 04 – Administrative Roles
+### 04 – Introduction to Administrative Roles
 
-Role-Based Access Control (RBAC) and delegated administration.
+Introduction to delegated administration and administrative permissions.
 
 Topics covered:
 
-- Built-in roles
-- Administrative permissions
+- Global Administrator
+- User Administrator
+- Helpdesk Administrator
 - Role assignments
 - Least privilege principles
 
 Skills developed:
 
-- RBAC administration
+- Administrative role awareness
 - Delegated administration
 - Security best practices
 
@@ -221,23 +222,23 @@ Skills developed:
 
 ---
 
-### 08 – Microsoft Graph PowerShell
+### 08 – Basic Microsoft Graph PowerShell
 
-Automation and reporting using Microsoft Graph.
+Introduction to PowerShell administration using Microsoft Graph.
 
 Topics covered:
 
-- Graph connectivity
-- User reporting
-- Group reporting
-- CSV exports
-- Administrative automation
+- Connect-MgGraph
+- Get-MgUser
+- Get-MgGroup
+- Export-Csv
+- Basic reporting
 
 Skills developed:
 
-- PowerShell administration
-- Automation
+- PowerShell fundamentals
 - Administrative reporting
+- Basic automation
 
 ---
 
