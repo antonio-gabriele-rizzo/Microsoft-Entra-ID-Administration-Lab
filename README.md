@@ -5,13 +5,19 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Project-success)
 
-## Overview
+## About This Project
 
-This project demonstrates hands-on administration of Microsoft Entra ID (formerly Azure Active Directory) in a cloud-first Microsoft 365 environment.
+Welcome to my TechLab Microsoft Entra ID Administration Portfolio.
 
-The project focuses on identity and access management tasks commonly performed by IT Support Analysts, Service Desk Engineers, Junior System Administrators, and Microsoft 365 Administrators.
+This repository documents my hands-on learning journey in Microsoft Entra ID administration using the same Microsoft 365 tenant developed throughout the TechLab Microsoft 365 Portfolio.
 
-The objective is to gain practical experience with user administration, group management, role-based access control (RBAC), authentication, auditing, and PowerShell automation while building a portfolio of real-world cloud administration skills.
+The purpose of this project is threefold:
+
+1. Develop practical Microsoft Entra ID administration skills.
+2. Build a professional portfolio demonstrating real-world identity management tasks.
+3. Create a personal technical reference and learning resource that can be revisited in the future.
+
+Every section is documented using step-by-step procedures, screenshots, explanations, and practical examples to support both learning and future reference.
 
 ---
 
@@ -24,63 +30,37 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 - TechLab Microsoft 365 Portfolio
 - TechLab Microsoft Entra ID Administration Portfolio
 
+### Planned Projects
+
+- TechLab Microsoft Intune Administration Portfolio
+- TechLab Active Directory Administration Portfolio
+- TechLab Service Desk Troubleshooting Portfolio
+
 ---
 
 ## Project Objectives
 
-- Create and manage cloud user accounts
-- Create and manage security groups
-- Explore Role-Based Access Control (RBAC)
-- Configure Multi-Factor Authentication (MFA)
-- Perform password management tasks
+- Understand Microsoft Entra ID fundamentals
+- Learn cloud identity management concepts
+- Manage users and groups
+- Explore administrative roles and RBAC
+- Configure and understand Multi-Factor Authentication (MFA)
+- Manage passwords and account recovery
 - Review sign-in and audit logs
-- Connect to Microsoft Graph using PowerShell
-- Export administrative reports
-- Document troubleshooting scenarios
+- Automate administrative tasks using Microsoft Graph PowerShell
+- Build professional technical documentation using GitHub and Markdown
+- Create a reusable Microsoft Entra ID administration reference guide
 
 ---
 
-## Technologies Used
+## Environment
 
-| Technology | Purpose |
-|------------|---------|
-| Microsoft Entra ID | Identity and Access Management |
-| Microsoft 365 | Cloud Services Platform |
-| Microsoft Graph PowerShell | Automation and Reporting |
-| PowerShell | Administration and Scripting |
-| GitHub | Documentation and Version Control |
-
----
-
-## Skills Demonstrated
-
-### Identity Administration
-
-- User lifecycle management
-- Group administration
-- Account enablement and disablement
-- Password management
-
-### Security Administration
-
-- Multi-Factor Authentication (MFA)
-- Authentication methods
-- Administrative role assignment
-- Least privilege principles
-
-### Monitoring and Troubleshooting
-
-- Sign-in log analysis
-- Audit log review
-- Identity troubleshooting
-- Administrative reporting
-
-### Automation
-
-- Microsoft Graph PowerShell
-- User reporting
-- CSV exports
-- Administrative scripting
+| Setting | Value |
+|----------|----------|
+| Tenant Name | TechLab |
+| Platform | Microsoft Entra Admin Center |
+| Licence | Microsoft Entra ID Free |
+| Purpose | Learning, Documentation and Portfolio Development |
 
 ---
 
@@ -100,19 +80,232 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 
 ---
 
-## Repository Structure
+## Section Overview
 
-```text
-TechLab-Microsoft-Entra-ID-Administration-Portfolio/
+### 01 – Identity Overview
 
-├── README.md
-│
-├── 01-Identity-Overview/
-│   ├── Identity-Overview.md
-│   └── images/
-│       ├── entra-overview.png
-│       └── users-overview.png
-```
+Introduction to Microsoft Entra ID and cloud identity management.
+
+Topics covered:
+
+- Microsoft Entra ID fundamentals
+- Identity management concepts
+- Authentication vs Authorisation
+- Microsoft Entra Admin Center
+- Accessing the Entra portal
+- User management overview
+
+Skills developed:
+
+- Identity and Access Management (IAM) fundamentals
+- Cloud identity concepts
+- Microsoft Entra navigation
+
+---
+
+### 02 – User Management
+
+User lifecycle administration within Microsoft Entra ID.
+
+Topics covered:
+
+- User creation
+- User properties
+- Password resets
+- Block sign-in
+- User deletion
+- User restoration
+
+Skills developed:
+
+- User administration
+- Identity management
+- Service Desk procedures
+
+---
+
+### 03 – Group Management
+
+Group administration and membership management.
+
+Topics covered:
+
+- Security Groups
+- Microsoft 365 Groups
+- Group ownership
+- Membership management
+- Group administration
+
+Skills developed:
+
+- Access management
+- Group administration
+- Permission management
+
+---
+
+### 04 – Administrative Roles
+
+Role-Based Access Control (RBAC) and delegated administration.
+
+Topics covered:
+
+- Built-in roles
+- Administrative permissions
+- Role assignments
+- Least privilege principles
+
+Skills developed:
+
+- RBAC administration
+- Delegated administration
+- Security best practices
+
+---
+
+### 05 – Multi-Factor Authentication (MFA)
+
+Identity security and authentication methods.
+
+Topics covered:
+
+- MFA concepts
+- Authentication methods
+- Security best practices
+- User registration
+
+Skills developed:
+
+- Identity security
+- Authentication management
+- Security administration
+
+---
+
+### 06 – Password Management
+
+Password administration and account recovery.
+
+Topics covered:
+
+- Password resets
+- Force password changes
+- Self-service password reset
+- Account recovery
+
+Skills developed:
+
+- User support
+- Service Desk procedures
+- Identity administration
+
+---
+
+### 07 – Sign-In Logs and Audit Logs
+
+Monitoring and troubleshooting identity activity.
+
+Topics covered:
+
+- Sign-in logs
+- Audit logs
+- Failed sign-ins
+- User investigations
+- Administrative activity
+
+Skills developed:
+
+- Troubleshooting
+- Security monitoring
+- Log analysis
+
+---
+
+### 08 – Microsoft Graph PowerShell
+
+Automation and reporting using Microsoft Graph.
+
+Topics covered:
+
+- Graph connectivity
+- User reporting
+- Group reporting
+- CSV exports
+- Administrative automation
+
+Skills developed:
+
+- PowerShell administration
+- Automation
+- Administrative reporting
+
+---
+
+### 09 – Troubleshooting Scenarios
+
+Common Microsoft Entra ID support scenarios.
+
+Topics covered:
+
+- User sign-in issues
+- Password problems
+- MFA issues
+- Access problems
+- Administrative troubleshooting
+
+Skills developed:
+
+- Troubleshooting methodology
+- Incident investigation
+- Service Desk skills
+
+---
+
+## Documentation Methodology
+
+Each section follows a consistent documentation structure:
+
+- Objectives
+- Step-by-step procedures
+- Screenshots and evidence
+- Technical explanations
+- Administrative tasks performed
+- Key learnings
+- Skills developed
+
+The goal is to ensure that every documented task can be reproduced in the future and used as a practical reference guide.
+
+---
+
+## Skills Demonstrated
+
+### Identity Administration
+
+- User lifecycle management
+- Group administration
+- Password management
+- Administrative role assignment
+
+### Security Administration
+
+- Multi-Factor Authentication (MFA)
+- Authentication methods
+- Sign-in monitoring
+- Audit log analysis
+
+### Automation
+
+- Microsoft Graph PowerShell
+- Administrative reporting
+- CSV exports
+- PowerShell automation
+
+### Professional Skills
+
+- Technical Documentation
+- GitHub Version Control
+- Markdown Documentation
+- Troubleshooting Methodology
 
 ---
 
@@ -129,6 +322,26 @@ The TechLab portfolio will continue to expand with additional projects including
 
 ---
 
+## Career Relevance
+
+This portfolio supports my professional development towards roles such as:
+
+- IT Support Technician
+- Service Desk Analyst
+- Microsoft 365 Administrator
+- Junior Systems Administrator
+- Cloud Support Technician
+
+---
+
+## Notes
+
+This repository is a personal learning environment created for educational and portfolio purposes.
+
+All activities are performed within a dedicated Microsoft cloud test environment.
+
+---
+
 ## Author
 
 **Antonio Gabriele Rizzo**
@@ -136,7 +349,8 @@ The TechLab portfolio will continue to expand with additional projects including
 - CompTIA Tech+
 - CompTIA A+
 - Junior Network Engineer
-- Microsoft 365 Administration Lab
+- Microsoft 365 Administration
+- Microsoft Entra ID Administration
 - Aspiring Cloud and Infrastructure Professional
 
 ---
