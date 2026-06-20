@@ -1,186 +1,273 @@
 # Microsoft Entra ID Administration Lab
 
-## Project Overview
+![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20Entra%20ID-0078D4)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
+![Portfolio](https://img.shields.io/badge/Portfolio-Project-success)
 
-This project demonstrates hands-on administration of Microsoft Entra ID (formerly Azure Active Directory).
+## Overview
 
-The objective of this lab is to gain practical experience with cloud identity management tasks commonly performed by IT Support Analysts, Service Desk Engineers, and Microsoft 365 Administrators.
+This project demonstrates hands-on administration of Microsoft Entra ID (formerly Azure Active Directory) in a cloud-first Microsoft 365 environment.
 
-The project is being developed as part of my transition into IT and focuses on practical skills that are frequently used in modern cloud-first environments.
+The lab focuses on identity and access management tasks commonly performed by IT Support Analysts, Service Desk Engineers, Junior System Administrators, and Microsoft 365 Administrators.
+
+The objective is to gain practical experience with user administration, group management, role-based access control, authentication, auditing, and PowerShell automation while building a portfolio of real-world cloud administration skills.
+
+---
+
+## Project Objectives
+
+- Create and manage cloud user accounts
+- Create and manage security groups
+- Explore Role-Based Access Control (RBAC)
+- Configure Multi-Factor Authentication (MFA)
+- Perform password management tasks
+- Review sign-in and audit logs
+- Connect to Microsoft Graph using PowerShell
+- Export administrative reports
+- Document troubleshooting scenarios
 
 ---
 
 ## Technologies Used
 
-- Microsoft Entra Admin Center
-- Microsoft Graph PowerShell
-- PowerShell
-- Microsoft 365
-- GitHub
+| Technology | Purpose |
+|------------|---------|
+| Microsoft Entra ID | Identity and Access Management |
+| Microsoft 365 | Cloud Services Platform |
+| Microsoft Graph PowerShell | Automation and Reporting |
+| PowerShell | Administration and Scripting |
+| GitHub | Documentation and Version Control |
 
 ---
 
 ## Skills Demonstrated
 
-- User Administration
-- Group Administration
-- Role-Based Access Control (RBAC)
+### Identity Administration
+
+- User lifecycle management
+- Group administration
+- Account enablement and disablement
+- Password management
+
+### Security Administration
+
 - Multi-Factor Authentication (MFA)
-- Password Management
-- Sign-In Monitoring
-- Audit Logging
-- PowerShell Automation
-- Troubleshooting Methodology
-- Technical Documentation
+- Authentication methods
+- Administrative role assignment
+- Least privilege principles
+
+### Monitoring and Troubleshooting
+
+- Sign-in log analysis
+- Audit log review
+- Identity troubleshooting
+- Administrative reporting
+
+### Automation
+
+- Microsoft Graph PowerShell
+- User reporting
+- CSV exports
+- Administrative scripting
 
 ---
 
-## Lab Objectives
+# Lab Progress
 
-The goal of this project is to build practical experience with cloud identity management by completing the following tasks:
-
-- Create and manage users
-- Create and manage groups
-- Explore administrative roles
-- Configure Multi-Factor Authentication (MFA)
-- Perform password resets
-- Review sign-in and audit logs
-- Connect to Microsoft Graph using PowerShell
-- Generate administrative reports
-- Document troubleshooting scenarios
+| Lab | Status |
+|------|------|
+| User Administration | ⏳ Planned |
+| Group Administration | ⏳ Planned |
+| Administrative Roles | ⏳ Planned |
+| Multi-Factor Authentication | ⏳ Planned |
+| Password Management | ⏳ Planned |
+| Sign-In Logs and Audit Logs | ⏳ Planned |
+| Microsoft Graph PowerShell | ⏳ Planned |
+| Troubleshooting Scenarios | ⏳ Planned |
 
 ---
 
-## Lab Sections
+# Lab 1 - User Administration
 
-### Lab 1 – User Administration
+## Objectives
 
-**Objectives**
-
-- Create users
+- Create user accounts
 - Modify user properties
-- Disable and enable accounts
+- Disable and enable users
 - Delete users
 
-**Skills Gained**
+## Skills Gained
 
 - User lifecycle management
 - Cloud identity administration
 - Microsoft Entra navigation
 
+### Screenshots
+
+Screenshots will be added upon completion.
+
 ---
 
-### Lab 2 – Group Administration
+# Lab 2 - Group Administration
 
-**Objectives**
+## Objectives
 
 - Create Security Groups
 - Create Microsoft 365 Groups
-- Manage group membership
+- Manage memberships
 
-**Skills Gained**
+## Skills Gained
 
 - Access management
 - Group-based administration
-- Permission management concepts
+- Permission management
+
+### Screenshots
+
+Screenshots will be added upon completion.
 
 ---
 
-### Lab 3 – Administrative Roles
+# Lab 3 - Administrative Roles
 
-**Objectives**
+## Objectives
 
 - Explore built-in administrative roles
 - Assign administrative permissions
-- Understand least-privilege principles
+- Understand least privilege
 
-**Skills Gained**
+## Skills Gained
 
 - RBAC fundamentals
 - Administrative delegation
 
+### Screenshots
+
+Screenshots will be added upon completion.
+
 ---
 
-### Lab 4 – Multi-Factor Authentication (MFA)
+# Lab 4 - Multi-Factor Authentication (MFA)
 
-**Objectives**
+## Objectives
 
+- Configure MFA
 - Review authentication methods
-- Configure MFA settings
-- Understand security best practices
+- Understand identity security
 
-**Skills Gained**
+## Skills Gained
 
-- Identity security
 - Authentication management
+- Security best practices
+
+### Screenshots
+
+Screenshots will be added upon completion.
 
 ---
 
-### Lab 5 – Password Management
+# Lab 5 - Password Management
 
-**Objectives**
+## Objectives
 
 - Reset passwords
 - Force password changes
-- Review password-related settings
+- Review password policies
 
-**Skills Gained**
+## Skills Gained
 
-- Service Desk support procedures
+- Service Desk procedures
 - User account recovery
+
+### Screenshots
+
+Screenshots will be added upon completion.
 
 ---
 
-### Lab 6 – Sign-In Logs and Audit Logs
+# Lab 6 - Sign-In Logs and Audit Logs
 
-**Objectives**
+## Objectives
 
 - Review successful sign-ins
 - Review failed sign-ins
 - Analyse audit activity
 
-**Skills Gained**
+## Skills Gained
 
 - Security monitoring
-- User troubleshooting
 - Log analysis
+- User troubleshooting
+
+### Screenshots
+
+Screenshots will be added upon completion.
 
 ---
 
-### Lab 7 – Microsoft Graph PowerShell
+# Lab 7 - Microsoft Graph PowerShell
 
-**Objectives**
+## Objectives
 
 - Connect to Microsoft Graph
 - Retrieve users
 - Retrieve groups
-- Export information to CSV
+- Export data to CSV
 
-**Skills Gained**
+## Skills Gained
 
 - PowerShell automation
-- Microsoft Graph administration
 - Reporting
+- Microsoft Graph administration
+
+### Example Commands
+
+```powershell
+Connect-MgGraph
+
+Get-MgUser
+
+Get-MgGroup
+```
+
+### Screenshots
+
+Screenshots will be added upon completion.
 
 ---
 
-### Lab 8 – Troubleshooting Scenarios
+# Lab 8 - Troubleshooting Scenarios
 
-**Objectives**
+## Example Scenarios
 
-- Investigate common identity issues
-- Document troubleshooting methodology
-- Record resolutions
+### User Cannot Sign In
 
-**Skills Gained**
+**Investigation**
 
-- Problem solving
-- Incident investigation
-- Technical documentation
+- Check account status
+- Check password validity
+- Review MFA settings
+
+**Resolution**
+
+- Reset password
+- Confirm MFA registration
+
+### User Missing Group Access
+
+**Investigation**
+
+- Review group membership
+- Review assigned permissions
+
+**Resolution**
+
+- Add user to correct group
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 Microsoft-Entra-ID-Administration-Lab/
@@ -202,20 +289,30 @@ Microsoft-Entra-ID-Administration-Lab/
 
 ---
 
-## Current Status
+# Future Improvements
 
-🔄 In Progress
-
-The project is currently being developed and will be updated as each lab section is completed.
+- Microsoft Intune Administration Lab
+- Active Directory Administration Lab
+- Service Desk Troubleshooting Lab
+- Jamf Awareness Lab
+- Advanced Microsoft Graph Automation
 
 ---
 
-## Author
+# Author
 
-Antonio Gabriele Rizzo
+**Antonio Gabriele Rizzo**
 
 - CompTIA Tech+
 - CompTIA A+
 - Junior Network Engineer
 - Microsoft 365 Administration Lab
-- IT Support and Cloud Administration Enthusiast
+- Aspiring Cloud and Infrastructure Professional
+
+---
+
+## Connect
+
+GitHub Portfolio:
+
+https://github.com/antonio-gabriele-rizzo
