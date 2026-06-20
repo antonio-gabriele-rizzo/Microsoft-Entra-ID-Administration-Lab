@@ -11,7 +11,7 @@ This project demonstrates hands-on administration of Microsoft Entra ID (formerl
 
 The lab focuses on identity and access management tasks commonly performed by IT Support Analysts, Service Desk Engineers, Junior System Administrators, and Microsoft 365 Administrators.
 
-The objective is to gain practical experience with user administration, group management, role-based access control, authentication, auditing, and PowerShell automation while building a portfolio of real-world cloud administration skills.
+The objective is to gain practical experience with user administration, group management, role-based access control (RBAC), authentication, auditing, and PowerShell automation while building a portfolio of real-world cloud administration skills.
 
 ---
 
@@ -73,223 +73,60 @@ The objective is to gain practical experience with user administration, group ma
 
 ---
 
-# Lab Progress
+## Project Structure
 
-| Lab | Status |
-|------|------|
-| User Administration | ⏳ Planned |
-| Group Administration | ⏳ Planned |
-| Administrative Roles | ⏳ Planned |
-| Multi-Factor Authentication | ⏳ Planned |
-| Password Management | ⏳ Planned |
-| Sign-In Logs and Audit Logs | ⏳ Planned |
-| Microsoft Graph PowerShell | ⏳ Planned |
-| Troubleshooting Scenarios | ⏳ Planned |
-
----
-
-# Lab 1 - User Administration
-
-## Objectives
-
-- Create user accounts
-- Modify user properties
-- Disable and enable users
-- Delete users
-
-## Skills Gained
-
-- User lifecycle management
-- Cloud identity administration
-- Microsoft Entra navigation
-
-### Screenshots
-
-Screenshots will be added upon completion.
+| Section | Status |
+|----------|----------|
+| [01 - Identity Overview](01-Identity-Overview/Identity-Overview.md) | ✅ Complete |
+| 02 - User Management | ⏳ Planned |
+| 03 - Group Management | ⏳ Planned |
+| 04 - Administrative Roles | ⏳ Planned |
+| 05 - MFA | ⏳ Planned |
+| 06 - Password Management | ⏳ Planned |
+| 07 - Sign-In Logs | ⏳ Planned |
+| 08 - Microsoft Graph PowerShell | ⏳ Planned |
+| 09 - Troubleshooting Scenarios | ⏳ Planned |
 
 ---
 
-# Lab 2 - Group Administration
-
-## Objectives
-
-- Create Security Groups
-- Create Microsoft 365 Groups
-- Manage memberships
-
-## Skills Gained
-
-- Access management
-- Group-based administration
-- Permission management
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 3 - Administrative Roles
-
-## Objectives
-
-- Explore built-in administrative roles
-- Assign administrative permissions
-- Understand least privilege
-
-## Skills Gained
-
-- RBAC fundamentals
-- Administrative delegation
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 4 - Multi-Factor Authentication (MFA)
-
-## Objectives
-
-- Configure MFA
-- Review authentication methods
-- Understand identity security
-
-## Skills Gained
-
-- Authentication management
-- Security best practices
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 5 - Password Management
-
-## Objectives
-
-- Reset passwords
-- Force password changes
-- Review password policies
-
-## Skills Gained
-
-- Service Desk procedures
-- User account recovery
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 6 - Sign-In Logs and Audit Logs
-
-## Objectives
-
-- Review successful sign-ins
-- Review failed sign-ins
-- Analyse audit activity
-
-## Skills Gained
-
-- Security monitoring
-- Log analysis
-- User troubleshooting
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 7 - Microsoft Graph PowerShell
-
-## Objectives
-
-- Connect to Microsoft Graph
-- Retrieve users
-- Retrieve groups
-- Export data to CSV
-
-## Skills Gained
-
-- PowerShell automation
-- Reporting
-- Microsoft Graph administration
-
-### Example Commands
-
-```powershell
-Connect-MgGraph
-
-Get-MgUser
-
-Get-MgGroup
-```
-
-### Screenshots
-
-Screenshots will be added upon completion.
-
----
-
-# Lab 8 - Troubleshooting Scenarios
-
-## Example Scenarios
-
-### User Cannot Sign In
-
-**Investigation**
-
-- Check account status
-- Check password validity
-- Review MFA settings
-
-**Resolution**
-
-- Reset password
-- Confirm MFA registration
-
-### User Missing Group Access
-
-**Investigation**
-
-- Review group membership
-- Review assigned permissions
-
-**Resolution**
-
-- Add user to correct group
-
----
-
-# Repository Structure
+## Repository Structure
 
 ```text
 Microsoft-Entra-ID-Administration-Lab/
 
 ├── README.md
-├── screenshots/
-│   ├── users/
-│   ├── groups/
-│   ├── roles/
-│   ├── mfa/
-│   ├── password-reset/
-│   ├── logs/
-│   └── powershell/
 │
-├── scripts/
+├── 01-Identity-Overview/
+│   └── Identity-Overview.md
 │
-└── documentation/
+├── 02-User-Management/
+│   └── User-Management.md
+│
+├── 03-Group-Management/
+│   └── Group-Management.md
+│
+├── 04-Administrative-Roles/
+│   └── Administrative-Roles.md
+│
+├── 05-MFA/
+│   └── MFA.md
+│
+├── 06-Password-Management/
+│   └── Password-Management.md
+│
+├── 07-Sign-In-Logs/
+│   └── Sign-In-Logs.md
+│
+├── 08-Microsoft-Graph-PowerShell/
+│   └── Microsoft-Graph-PowerShell.md
+│
+└── 09-Troubleshooting-Scenarios/
+    └── Troubleshooting-Scenarios.md
 ```
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 - Microsoft Intune Administration Lab
 - Active Directory Administration Lab
@@ -299,7 +136,7 @@ Microsoft-Entra-ID-Administration-Lab/
 
 ---
 
-# Author
+## Author
 
 **Antonio Gabriele Rizzo**
 
