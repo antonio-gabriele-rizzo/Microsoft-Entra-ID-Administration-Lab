@@ -171,6 +171,25 @@ The navigation menu shown in the Overview page provides quick access to these ar
 
 ---
 
+## Areas Covered in This Portfolio
+
+Throughout this portfolio, the primary focus will be on the following Microsoft Entra administration areas:
+
+- Users
+- Groups
+- Administrative Roles
+- Multi-Factor Authentication (MFA)
+- Password Management
+- Sign-In Logs
+- Audit Logs
+- Microsoft Graph PowerShell
+
+These areas represent common responsibilities encountered in entry-level IT Support, Service Desk, and Junior Systems Administration roles.
+
+The following chapters will explore each area in greater detail through practical administrative tasks and step-by-step documentation.
+
+---
+
 # Users Overview
 
 Users are the primary identity objects managed within Microsoft Entra ID.
