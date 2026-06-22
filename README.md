@@ -70,7 +70,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 |----------|----------|
 | [01 - Identity Overview](01-Identity-Overview/Identity-Overview.md) | ✅ Complete |
 | [02 - User Management](02-User-Management/User-Management.md) | ✅ Complete |
-| 03 - Group Management | ⏳ Planned |
+| [03 - Group Management](03-Group-Management/Group-Management.md) | ✅ Complete |
 | 04 - Introduction to Administrative Roles | ⏳ Planned |
 | 05 - Multi-Factor Authentication (MFA) | ⏳ Planned |
 | 06 - Password Management | ⏳ Planned |
@@ -135,19 +135,26 @@ Skills developed:
 
 Group administration and membership management.
 
+This chapter provides a practical introduction to creating and managing groups within Microsoft Entra ID, including Security Groups and Microsoft 365 Groups.
+
 Topics covered:
 
 - Security Groups
 - Microsoft 365 Groups
+- Group creation
 - Group ownership
 - Membership management
+- Adding and removing members
 - Group administration
+- Access management concepts
 
 Skills developed:
 
-- Access management
 - Group administration
+- Membership management
+- Access management
 - Permission management
+- Microsoft Entra administration
 
 ---
 
