@@ -69,7 +69,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | Section | Status |
 |----------|----------|
 | [01 - Identity Overview](01-Identity-Overview/Identity-Overview.md) | ✅ Complete |
-| 02 - User Management | ⏳ Planned |
+| [02 - User Management](02-User-Management/User-Management.md) | ✅ Complete |
 | 03 - Group Management | ⏳ Planned |
 | 04 - Introduction to Administrative Roles | ⏳ Planned |
 | 05 - Multi-Factor Authentication (MFA) | ⏳ Planned |
@@ -107,20 +107,27 @@ Skills developed:
 
 User lifecycle administration within Microsoft Entra ID.
 
+This chapter provides a practical step-by-step guide to creating, managing, disabling, deleting, and restoring user accounts within Microsoft Entra ID.
+
 Topics covered:
 
+- User overview and user account information
 - User creation
-- User properties
-- Password resets
-- Block sign-in
+- User properties and profile information
+- Account enable and disable operations
+- Password reset fundamentals
 - User deletion
+- Deleted users management
 - User restoration
+- Administrative best practices for user management
 
 Skills developed:
 
 - User administration
 - Identity management
 - Service Desk procedures
+- User lifecycle management
+- Microsoft Entra administration
 
 ---
 
