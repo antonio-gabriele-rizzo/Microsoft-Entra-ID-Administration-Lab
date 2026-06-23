@@ -73,7 +73,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [03 - Group Management](03-Group-Management/Group-Management.md) | ✅ Complete |
 | [04 - Introduction to Administrative Roles](04-Administrative-Roles/Administrative-Roles.md) | ✅ Complete |
 | [05 - Multi-Factor Authentication (MFA)](05-Multi-Factor-Authentication/Multi-Factor-Authentication.md) | ✅ Complete |
-| 06 - Password Management | ⏳ Planned |
+| [06 - Password Management](06-Password-Management/Password-Management.md) | ✅ Complete |
 | 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
 | 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
@@ -218,20 +218,31 @@ Skills developed:
 
 ### 06 – Password Management
 
-Password administration and account recovery.
+Password administration, account recovery, and authentication troubleshooting within Microsoft Entra ID.
+
+This chapter explores password reset procedures, temporary password generation, authentication method review, session revocation, account recovery processes, and sign-in log investigation.
 
 Topics covered:
 
-- Password resets
-- Force password changes
-- Self-service password reset
+- Password reset procedures
+- Temporary password generation
+- Force password change at next sign-in
 - Account recovery
+- Authentication methods review
+- Session revocation
+- Sign-in log investigation
+- Password security best practices
 
 Skills developed:
 
+- Password administration
+- Identity management
+- Account recovery
+- Authentication troubleshooting
+- Security administration
 - User support
 - Service Desk procedures
-- Identity administration
+- Microsoft Entra administration
 
 ---
 
