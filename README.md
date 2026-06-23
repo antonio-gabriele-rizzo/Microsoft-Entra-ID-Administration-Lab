@@ -73,7 +73,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [03 - Group Management](03-Group-Management/Group-Management.md) | ✅ Complete |
 | [04 - Introduction to Administrative Roles](04-Administrative-Roles/Administrative-Roles.md) | ✅ Complete |
 | [05 - Multi-Factor Authentication (MFA)](05-Multi-Factor-Authentication/Multi-Factor-Authentication.md) | ✅ Complete |
-| [06 - Password Management](06-Password-Management/Password-Management.md) | ✅ Complete |
+| [06 - Password Management](06–Password-Management/Password-Management.md) | ✅ Complete |
 | 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
 | 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
