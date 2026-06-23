@@ -75,7 +75,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [05 - Multi-Factor Authentication (MFA)](05-Multi-Factor-Authentication/Multi-Factor-Authentication.md) | ✅ Complete |
 | [06 - Password Management](06–Password-Management/Password-Management.md) | ✅ Complete |
 | [07 - Monitoring and Audit Logs](07-Monitoring-and-Audit-Logs/Monitoring-and-Audit-Logs.md) | ✅ Complete |
-| 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
+| [08 - Basic Microsoft Graph PowerShell](08-Basic-Microsoft-Graph-PowerShell/Basic-Microsoft-Graph-PowerShell.md) | ✅ Complete |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
 
 ---
@@ -277,21 +277,29 @@ Skills developed:
 
 ### 08 – Basic Microsoft Graph PowerShell
 
-Introduction to PowerShell administration using Microsoft Graph.
+Introduction to Microsoft Graph PowerShell for modern Microsoft Entra ID administration.
+
+This chapter demonstrates how to connect to Microsoft Graph, review connection context information, retrieve users and groups, and manage authenticated PowerShell sessions using the Microsoft Graph SDK.
 
 Topics covered:
 
+- Microsoft Graph PowerShell module
 - Connect-MgGraph
+- Get-MgContext
 - Get-MgUser
 - Get-MgGroup
-- Export-Csv
-- Basic reporting
+- Disconnect-MgGraph
+- Session management
 
 Skills developed:
 
-- PowerShell fundamentals
-- Administrative reporting
-- Basic automation
+- Microsoft Graph administration
+- PowerShell administration
+- Identity management
+- User management
+- Group management
+- Cloud administration
+- Modern Microsoft administration
 
 ---
 
