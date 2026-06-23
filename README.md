@@ -72,7 +72,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [02 - User Management](02-User-Management/User-Management.md) | ✅ Complete |
 | [03 - Group Management](03-Group-Management/Group-Management.md) | ✅ Complete |
 | [04 - Introduction to Administrative Roles](04-Administrative-Roles/Administrative-Roles.md) | ✅ Complete |
-| 05 - Multi-Factor Authentication (MFA) | ⏳ Planned |
+| [05 - Multi-Factor Authentication (MFA)](05-Multi-Factor-Authentication/Multi-Factor-Authentication.md) | ✅ Complete |
 | 06 - Password Management | ⏳ Planned |
 | 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
 | 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
@@ -189,20 +189,30 @@ Skills developed:
 
 ### 05 – Multi-Factor Authentication (MFA)
 
-Identity security and authentication methods.
+Identity security, authentication methods, and Multi-Factor Authentication (MFA) administration within Microsoft Entra ID.
+
+This chapter introduces Multi-Factor Authentication concepts, authentication method policies, Microsoft Authenticator configuration, user authentication methods, and MFA security best practices.
 
 Topics covered:
 
-- MFA concepts
-- Authentication methods
+- Multi-Factor Authentication (MFA) fundamentals
+- Authentication factors
+- Authentication method policies
+- Microsoft Authenticator
+- User authentication methods
+- MFA re-registration
+- Authentication method evaluation
+- Passwordless authentication overview
 - Security best practices
-- User registration
 
 Skills developed:
 
 - Identity security
-- Authentication management
+- Multi-Factor Authentication administration
+- Authentication method management
+- Microsoft Entra administration
 - Security administration
+- Access management
 
 ---
 
