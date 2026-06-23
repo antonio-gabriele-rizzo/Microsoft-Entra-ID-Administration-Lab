@@ -74,7 +74,7 @@ This repository is part of the TechLab portfolio series, a collection of hands-o
 | [04 - Introduction to Administrative Roles](04-Administrative-Roles/Administrative-Roles.md) | ✅ Complete |
 | [05 - Multi-Factor Authentication (MFA)](05-Multi-Factor-Authentication/Multi-Factor-Authentication.md) | ✅ Complete |
 | [06 - Password Management](06–Password-Management/Password-Management.md) | ✅ Complete |
-| 07 - Sign-In Logs and Audit Logs | ⏳ Planned |
+| [07 - Monitoring and Audit Logs](07-Monitoring-and-Audit-Logs/Monitoring-and-Audit-Logs.md) | ✅ Complete |
 | 08 - Basic Microsoft Graph PowerShell | ⏳ Planned |
 | 09 - Troubleshooting Scenarios | ⏳ Planned |
 
@@ -246,23 +246,32 @@ Skills developed:
 
 ---
 
-### 07 – Sign-In Logs and Audit Logs
+### 07 – Monitoring and Audit Logs
 
-Monitoring and troubleshooting identity activity.
+Monitoring, auditing, and troubleshooting identity activity within Microsoft Entra ID.
+
+This chapter explores Sign-in Logs and Audit Logs, demonstrating how administrators investigate authentication activity, filter events, review administrative operations, and analyse password reset records.
 
 Topics covered:
 
-- Sign-in logs
-- Audit logs
-- Failed sign-ins
-- User investigations
-- Administrative activity
+- Sign-in Logs
+- Sign-in event filtering
+- Tenant-wide authentication monitoring
+- Audit Logs
+- Audit Log filtering
+- Password reset investigations
+- Administrative accountability
+- Monitoring and troubleshooting workflows
 
 Skills developed:
 
-- Troubleshooting
+- Identity monitoring
+- Authentication analysis
+- Audit Log investigation
 - Security monitoring
-- Log analysis
+- Troubleshooting workflows
+- Administrative auditing
+- Microsoft Entra administration
 
 ---
 
